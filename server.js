@@ -30,7 +30,7 @@ const Phonenumber = mongoose.model("phonenumber", titles);
 // into smallCase and also adds s in the end like Title => titles
 
 app.get("/", function(req, res){
-    res.sendFile(__dirname + "/signup.html");
+    res.sendFile(__dirname + "/index.html");
 })
 
 // app.post()
